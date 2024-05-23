@@ -6,8 +6,9 @@
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: white;
   text-align: center;
+  font-size: 50px;
 }
 
 #product-overview h1 {
@@ -36,6 +37,16 @@
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+}
+
+#plans {
+  margin-top: -20px;
+  background-color: blue;
+}
+
+#key-features1 {
+  margin-top: -43px;
+  background-color: #5b65f5;
 }
 
 .plan--highlighted {
@@ -98,12 +109,11 @@
 
 .key-feature {
   display: inline-block;
-  width: 30%;
+  width: 10%;
   vertical-align: top;
 }
 
 .key-feature__image {
-  background: #ffcede;
   width: 128px;
   height: 128px;
   border: 2px solid #424242;
@@ -113,7 +123,7 @@
 
 .key-feature__description {
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   font-size: 20px;
 }
