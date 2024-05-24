@@ -1,8 +1,10 @@
 #product-overview {
-  background: url(../images/tools5.jpg);
   width: 100%;
-  height: 700px;
+  height: 800px;
   padding: 10px;
+
+  background-size: cover;
+  height: calc(100vh - 80px);
 }
 
 .section-title {
