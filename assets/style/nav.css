@@ -64,6 +64,24 @@ a:hover {
   display: none;
 }
 
+#key-features1 {
+  margin-top: -43px;
+  background-color: rgb(43, 108, 163);
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+}
+
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
@@ -86,7 +104,7 @@ a:hover {
     height: 100vh;
     background: #ffde11;
     top: 80px;
-    left: -100%;
+    left: -124%;
     text-align: center;
     transition: all 0.5s;
   }
@@ -108,5 +126,12 @@ a:hover {
 
   #check:checked ~ ul {
     left: 0;
+  }
+
+  .key-feature {
+    margin: 0px;
+    /* display: block; */
+    /* width: 10%; */
+    /* vertical-align: top; */
   }
 }
